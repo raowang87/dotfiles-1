@@ -1,0 +1,16 @@
+# Now, what I want
+# First off specific files
+!.gitignore
+!.vimrc
+!.Xresources
+!.xinitrc
+!.zshrc
+!.ctags
+!.tmux.conf
+!.config/awesome/rc.lua
+
+# And a folders
+!.irssi/*
+
+# Then ignore everything
+*

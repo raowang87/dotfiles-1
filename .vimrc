@@ -40,3 +40,9 @@ autocmd FileType python,java autocmd FilterWritePre  * :call TrimWhiteSpace()
 autocmd FileType python,java autocmd BufWritePre     * :call TrimWhiteSpace()
 " Turn off annoying python style checkers (pylint looking at you
 let g:syntastic_python_checkers = ['python']
+
+" Paste behavior with <F2>
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
+

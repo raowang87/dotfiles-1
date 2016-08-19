@@ -1,4 +1,5 @@
 " Use pathogen to install the following packages
+" ack.vim
 " nerdtree
 " supertab
 " syntastic
